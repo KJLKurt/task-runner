@@ -4,13 +4,13 @@ A flexible and modular task scheduling utility that supports multiple storage me
 
 🚀 Features
 
-✅ Register and execute scheduled tasks (one-time or recurring).
-✅ Multiple storage options: Chrome storage, localStorage, file system, or custom.
-✅ Modular storage system – easily switch or add new storage handlers.
-✅ Task persistence – tasks are saved and loaded automatically.
-✅ Prevent duplicate tasks from being reloaded.
-✅ Error handling to avoid crashes in recurring tasks.
-✅ Easily clear all tasks with clearAllTasks().
+- ✅ Register and execute scheduled tasks (one-time or recurring).
+- ✅ Multiple storage options: Chrome storage, localStorage, file system, or custom.
+- ✅ Modular storage system – easily switch or add new storage handlers.
+- ✅ Task persistence – tasks are saved and loaded automatically.
+- ✅ Prevent duplicate tasks from being reloaded.
+- ✅ Error handling to avoid crashes in recurring tasks.
+- ✅ Easily clear all tasks with clearAllTasks().
 
 📦 Installation
 
@@ -157,14 +157,14 @@ const runTask = () => {
 ```
 
 ## ⚡ Performance Considerations
-	•	Avoid too many recurring tasks (e.g., running 100+ tasks every second can be inefficient).
-	•	For Node.js, consider using a job queue for long-running tasks.
-	•	Use file-based or database storage for larger-scale apps instead of localStorage.
+- Avoid too many recurring tasks (e.g., running 100+ tasks every second can be inefficient).
+- For Node.js, consider using a job queue for long-running tasks.
+- Use file-based or database storage for larger-scale apps instead of localStorage.
 
 ## ✅ Future Enhancements
-	•	✅ Promise-based task execution (for async tasks).
-	•	✅ Task priority management (run certain tasks before others).
-	•	✅ Event-based task triggers (e.g., execute a task when a condition is met).
+- ✅ Promise-based task execution (for async tasks).
+- ✅ Task priority management (run certain tasks before others).
+- ✅ Event-based task triggers (e.g., execute a task when a condition is met).
 
 ## 💡 Contributing
 
